@@ -14,6 +14,7 @@ export default function MainLayout({ title, children }: Props) {
                 <title>{title ? `${title} - Apple` : 'Apple'}</title>
                 <link rel="icon" href="/apple.png" />
             </Head>
+            
             <Header />
             {
                 children
